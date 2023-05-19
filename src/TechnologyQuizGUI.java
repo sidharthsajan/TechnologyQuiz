@@ -7,7 +7,7 @@ public class TechnologyQuizGUI extends JFrame {
     private JLabel questionLabel;
     private JRadioButton[] choices;
     private JButton submitButton;
-    private int[] answers = {0, 2, 1, 2, 2, 0, 0, 1, 0, 0};
+    private int[] answers = {0, 2, 1, 2, 2, 0, 0, 1, 1, 0};
     private int score = 0;
     private int currentQuestion = 0;
 
@@ -34,7 +34,7 @@ public class TechnologyQuizGUI extends JFrame {
             {"A. Reduced dependence on fossil fuels","B. Increased carbon emissions","C. Higher energy costs" },
             {"A. By creating more online documents and papers","B. By increasing paper usage","C. By encouraging excessive printing" },
             {"A. Increased carbon emissions","B Reduced dependence on fossil fuels","C. Higher energy consumption" },
-            {"A. By increasing life expectancy","B. By reducing access to medical treatments","C. By promoting unhealthy lifestyle choices" },
+            {"A.By Deacreasing access to medical treatments","B. By Increasing access to medical treatments","C. By promoting unhealthy lifestyle choices" },
             {"A. Proper disposal of e-waste","B. Increased energy consumption","C. Excessive technology usage" }
     };
 
